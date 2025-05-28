@@ -1,9 +1,5 @@
-<p>Hello World!</p>
-<app-navbar *ngIf="exibeNavbar"></app-navbar>
-<app-navbar hidden *ngIf="!exibeNavbar"></app-navbar>
-
-@if (exibeNavbar){
 <app-navbar></app-navbar>
-} @else {
-<app-navbar hidden></app-navbar>
-}
+
+<app-base-ui>
+  <app-certificados></app-certificados>
+</app-base-ui>
