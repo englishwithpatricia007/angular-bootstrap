@@ -1,5 +1,4 @@
 .custom-button {
-
   height: 40px;
   padding: 10px 16px;
   border:none;
@@ -9,8 +8,9 @@
   font-size: 16px;
   cursor: pointer;
   gap: 8px;
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
 }
 
 .custom-button:hover {
